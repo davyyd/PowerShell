@@ -78,4 +78,7 @@ PS C:\Crashes\2019.07.16> $SourceACL.SetAccessRuleProtection($false,$true)
 PS C:\Crashes\2019.07.16> $SourceACL = Get-ACL -Path .\MEMORY.DMP
 PS C:\Crashes\2019.07.16> $SourceACL.SetAccessRuleProtection($false,$true)
 PS C:\Crashes\2019.07.16> Set-Acl -Path .\MEMORY.DMP -AclObject $SourceACL
+
+Want to use something like WhoCrashed to summarize the dump files and save that summary to $outFolder
+
 #>
